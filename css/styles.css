@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body {
+	font-size: 62.5%;
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #F2F2F2;
+}
+
+form[id=myForm] {
+	width: 80%;
+	margin: 0 auto;
+}
+
+fieldset {
+	padding: 1.5em;
+	margin-bottom: 2em;
+	background-color: #BBD3E8;
+	border: 1px solid #4B89BF;
+	border-radius: 0.2em;
+}
+
+legend {
+	font-size: 2em;
+	text-align: center;
+	background-color: #BBD3E8;
+	border: 1px solid #4B89BF; 
+	padding: 0.5em;
+	border-radius: 0.2em;
+	font-weight: bold;
+}
+
+label {
+	font-size: 1.5em;
+	display: block;
+	margin-bottom: 0.25em;
+}
+
+input {
+	display: inline-block;
+	margin-bottom: 2em;
+}
+
+input[type=submit] {
+	padding: 0.5em;
+	display: block
+}
+
+input[type=submit]:hover {
+	border-color: #4B89BF;
+}
+
+input[id=edit], input[id=finish] {
+	display: inline;
+	margin-bottom: 0em;
+}
+
+input[id=edit] {
+	margin-right: 1em;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+pre {
+	font-size: 1.5em;
+}
+
+a {
+	font-size: 1.5em;
+	text-decoration: none;
+	border: 1px solid gray;
+	padding: 0.5em;
+	background-color: white;
+	color: black;
+	margin-right: 1em;
+	display: inline-block;
+}
+
+a:hover {
+	border-color: #4B89BF;
+	background-color: #eeeeee;
+}
+
+em {
+	color: gray;
+}
+
+hr {
+	border: 0px;
+	padding: 0.5px;
+	background-color: #4B89BF;
+}
+
+.answers {
+	width: 80%;
+	margin: 0 auto;
+
+	padding: 1.5em;
+	margin-bottom: 2em;
+	background-color: #BBD3E8;
+	border: 1px solid #4B89BF;
+	border-radius: 0.2em;
+}
+
+.answers p:first-child{
+	margin-top: 0;
+}
+
+.empty {
+	display: inline;
+	color: red;
+}
