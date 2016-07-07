@@ -302,7 +302,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Assignment 03 &ndash; Part 1 &ndash; jacob vogelbacher</title>
+		<title>Cookies Form &ndash; Jacob Vogelbacher</title>
 		<style> @import url("css/styles.css"); </style>
 	</head>
 	<body>
